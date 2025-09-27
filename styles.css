@@ -55,3 +55,9 @@ h1{
     gap: 0px;
     width: 100%;
 }
+
+@media (max-width: 430px) {
+    .container {
+        max-width: 95vw;
+    }
+}

@@ -6,7 +6,7 @@ This is not a joke. It’s not moral guidance. It’s not therapy. It’s a meth
 
 ---
 
-## Procedure (Do not distribute)
+## Procedure
 **If you proceed, understand this is on you.** The knowledge below acts like an ink stain: it spreads, it stains, and it changes what you do and what you think.
 
 1. **Acquire the device.** A three-lobed fidget spinner. Ordinary. Ubiquitous. Unremarkable. Perfect cover.  
@@ -18,7 +18,7 @@ This is not a joke. It’s not moral guidance. It’s not therapy. It’s a meth
 
 ---
 
-## Aftercare (there is none)
+## Aftercare
 You now carry the small, unnecessary sin of knowing how to ritualize indecision. You’ll catch yourself in the future — late at night, in the boredom of a bus stop, or during a conversation that requires a one-word answer — and you’ll think, *just one spin.* That tiny rationalization is how this spreads.
 
 Share it and you become an accomplice. Don’t share it and you still live with the memory of a stupid ritual lodged in your brain, whispering options when you’d rather be indifferent.

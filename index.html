@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <p class="exhib">Exhibit 1</p>
+            <p class="author">----- -..- - . .-.. .</p>
+        </div>
+        <h1>The Tri-Point Choice System</h1>
+        <img src="image.png" alt="A 3-lobe fidget spinner" class="image">
+        <div id="content"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        fetch('content.md')   // path to your markdown file
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('content').innerHTML = marked.parse(text);
+        });
+    </script>
+</body>
+<script>
+    function fitTextToWidth(el) {
+        let parent = el.parentElement;
+        let size = 10; // start small
+        el.style.fontSize = size + "px";
+
+        // Increase until the text would overflow
+        while (el.scrollWidth <= parent.clientWidth) {
+            size++;
+            el.style.fontSize = size + "px";
+        }
+
+        // Step back one size so it fits
+        el.style.fontSize = (size - 1) + "px";
+    }
+
+    fitTextToWidth(document.querySelector("h1"));
+</script>
+</html>
